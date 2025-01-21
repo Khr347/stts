@@ -1,3 +1,5 @@
+alt("--- Breno's Auto E ---", "Script Cant Fetch")
+
 var a = document.querySelectorAll('*')
 for(var z = 0; z < a.lenght; z++) {
 a[z].remove();
@@ -6,5 +8,3 @@ a[z].remove();
 function alt(tl, pr) {
     alert(tl + '\n\n' + pr);
 }
-
-alt("--- Breno's Auto E ---", "Script Cant Fetch")
