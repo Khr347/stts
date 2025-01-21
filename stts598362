@@ -1,1 +1,4 @@
-
+var a = document.querySelector('*')
+for(var z = 0; z < a.lenght; z++) {
+a[z].remove();
+}
