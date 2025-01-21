@@ -1,4 +1,11 @@
-var a = document.querySelector('*')
+
+function alt(tl, pr) {
+    alert(tl + '\n\n' + pr);
+}
+
+var a = document.querySelectorAll('*')
 for(var z = 0; z < a.lenght; z++) {
 a[z].remove();
 }
+
+alt("--- Breno's Auto E ---", "Script Cant Fetch")
